@@ -1,0 +1,272 @@
+{
+    "area": {
+        "Eng": "Area",
+        "Subtypes": [
+            {
+                "Label": "area_chart",
+                "Eng": "Area Chart",
+                "Chn": "面积图",
+                "EngDescription": "",
+                "ChnDescription": "面积图基于折线图，并以图形方式使用面积来显示定量数据。其中面积图还包含Horizon Chart等为了提升空间效率等变体。"
+            },
+            {
+                "Label": "proportional_area_chart",
+                "Eng": "Proportional Area Chart",
+                "Chn": "成比例的面积图",
+                "EngDescription": "",
+                "ChnDescription": "区别于简单的面积图，这一类不基于折线图，而是使用了多个区块来表示不同个体。每个区块的面积表示对应个体属性值的大小，目的是为了比较不同个体之间值的大小。"
+            }
+        ]
+    },
+    "bar": {
+        "Eng": "Bar",
+        "Subtypes": [
+            {
+                "Label": "bar_chart",
+                "Eng": "Bar Chart",
+                "Chn": "柱状图",
+                "EngDescription": "",
+                "ChnDescription": "柱状图是一种用矩形条表示分类数据的图表，矩形条的高度或长度与其表示的值成比例。条形图可以垂直或水平绘制。垂直条形图有时称为柱形图。"
+            }
+        ]
+    },
+    "circle": {
+        "Eng": "Circle",
+        "Subtypes": [
+            {
+                "Label": "donut_chart",
+                "Eng": "Donut Chart",
+                "Chn": "圈图",
+                "EngDescription": "",
+                "ChnDescription": "Donut Chart是饼图的一种变体，中间有一个空白中心，允许包含有关整个数据的其他信息。"
+            },
+            {
+                "Label": "pie_chart",
+                "Eng": "Pie Chart",
+                "Chn": "饼图",
+                "EngDescription": "",
+                "ChnDescription": "Pie Chart是一种圆形统计图形，它被分成若干片来说明数字比例。在饼图中，每个切片的弧长（以及由此产生的中心角和面积）与其表示的数量成正比。"
+            },
+            {
+                "Label": "sector_chart",
+                "Eng": "Sector Chart",
+                "Chn": "扇形图",
+                "EngDescription": "",
+                "ChnDescription": "Sector Chart不一定有中间部分。且与饼图相比，其每一个扇形半径大小不一。"
+            }
+        ]
+    },
+    "diagram": {
+        "Eng": "Diagram",
+        "Subtypes": [
+            {
+                "Label": "chord_diagram",
+                "Eng": "Chord Diagram",
+                "Chn": "弦图",
+                "EngDescription": "",
+                "ChnDescription": "和弦图是一种显示矩阵中数据间相互关系的可视化方法，节点数据沿圆周径向排列，节点之间使用带权重（可有宽度）的弧线链接。其通常用来展示层次结构中的依赖关系或是同级实体间的流通关系。"
+            },
+            {
+                "Label": "flow_diagram",
+                "Eng": "Flow Diagram",
+                "Chn": "流程图",
+                "EngDescription": "",
+                "ChnDescription": "流程图直观地描述了一个工作过程的具体步骤，它以特定的图形符号（如箭头、菱形框、方框等），加上文字说明来表示系统流程或数据流向，可以准确地让用户了解到事情过程是如何进行的。它有时也被称为输入-输出图。"
+            },
+            {
+                "Label": "sankey_diagram",
+                "Eng": "Sankey Diagram",
+                "Chn": "桑基图",
+                "EngDescription": "",
+                "ChnDescription": "桑基图是一种特定类型的流程图，图中延伸的分支的宽度对应数据流量的大小。其最明显的特征就是，始末端的分支宽度总和相等，即所有主支宽度的总和应与所有分出去的分支宽度的总和相等，保持能量的平衡。这也是桑基图与误差带的主要分别。"
+            }
+        ]
+    },
+    "statistic": {
+        "Eng": "Statistic",
+        "Subtypes": [
+            {
+                "Label": "box_plot",
+                "Eng": "Box Plot",
+                "Chn": "面积图",
+                "EngDescription": "",
+                "ChnDescription": "Box Plot是一种通过四分位数以图形方式描绘数值数据组的方法。Box Plot也可以有从方框（晶须）延伸的线，指示上下四分位数之外的可变性。"
+            },
+            {
+                "Label": "error_bar",
+                "Eng": "Error Bar",
+                "Chn": "误差线",
+                "EngDescription": "",
+                "ChnDescription": "Error Bar是数据可变性的图形表示，用于图形表示报告测量中的误差或不确定度。Error Bar通常表示不确定度的一个标准偏差、一个标准误差或一个特定的置信区间（例如95%区间）。"
+            },
+            {
+                "Label": "stripe_graph",
+                "Eng": "Stripe Graph",
+                "Chn": "条纹图",
+                "EngDescription": "",
+                "ChnDescription": "通过线条之间的疏密来表示数据密度大小。"
+            }
+        ]
+    },
+    "grid": {
+        "Eng": "Grid",
+        "Subtypes": [
+            {
+                "Label": "matrix",
+                "Eng": "Matrix",
+                "Chn": "矩阵",
+                "EngDescription": "",
+                "ChnDescription": "矩阵（Matrix）是一种长方形阵列，数据节点被映射到横、纵坐标轴上，因此可用矩阵中的元素来编码信息。比如是否着色表示两个实体间是否存在关联关系（典型的如邻接矩阵）、通过circle大小表示对应元素的数值大小等"
+            },
+            {
+                "Label": "table",
+                "Eng": "Table",
+                "Chn": "表格",
+                "EngDescription": "",
+                "ChnDescription": "表格是现实生活中很常见的一种可视化形式，指的是按所需的内容项目画成格子，分别填写文字或数字的书面材料，便于统计查看。"
+            },
+            {
+                "Label": "small_multiple",
+                "Eng": "Small Multiple",
+                "Chn": "小倍数",
+                "EngDescription": "",
+                "ChnDescription": "Small Multiple（有时称为网格图，网格图，网格图或面板图）是一系列使用相同比例和轴的相似图形或图表，可轻松对其进行比较。 它使用多个视图来显示数据集的不同分区。"
+            }
+        ]
+    },
+    "line": {
+        "Eng": "Line",
+        "Subtypes": [
+            {
+                "Label": "line_chart",
+                "Eng": "Line Chart",
+                "Chn": "折线图",
+                "EngDescription": "",
+                "ChnDescription": "Line Graph是一种以一系列称为“标记”的数据点（由直线段连接）的形式显示信息的图表。它是许多领域中常见的一种基本图表类型。它类似于散点图，除了测量点是有序的（通常由其x轴值）和与直线段结合。折线图通常用于可视化数据在时间间隔（一个时间序列）上的趋势，因此该线通常按时间顺序绘制。"
+            },
+            {
+                "Label": "storyline",
+                "Eng": "Storyline",
+                "Chn": "故事线",
+                "EngDescription": "",
+                "ChnDescription": "Storyline通常使用一组的线（平行或非平行的）来表示故事中每个角色之间的关系，两个角色之间关系越近，则线的距离越近。"
+            },
+            {
+                "Label": "polar_plot",
+                "Eng": "Polar Plot",
+                "Chn": "极坐标图",
+                "EngDescription": "",
+                "ChnDescription": "在极坐标上，每一个点都有包括角度和距离这两维信息。并且同一个第三维度下的点连成一线围成圈。"
+            },
+            {
+                "Label": "parallel_coordinate",
+                "Eng": "Parallel Coordinate",
+                "Chn": "平行坐标系",
+                "EngDescription": "",
+                "ChnDescription": "Parallel Coordinates是高维几何可视化和多元数据分析的常用方法。为了显示n维空间中的一组点，将绘制一个由n条平行线组成的背景，这些平行线通常是垂直和等距的。n维空间中的一个点表示为平行轴上有顶点的折线；顶点在第i轴上的位置对应于点的第i坐标。"
+            }
+        ]
+    },
+    "map": {
+        "Eng": "Map",
+        "Subtypes": [
+            {
+                "Label": "statistic_map",
+                "Eng": "Map",
+                "Chn": "统计地图",
+                "EngDescription": "",
+                "ChnDescription": "在地理图基础上，通过在各个地理区域上绘制扇形图、直方图、颜色块、等高线等图形来编码具体信息。甚至包括对地图进行变形处理，用规则图形来表示各个国家和地区。"
+            }
+        ]
+    },
+    "point": {
+        "Eng": "Point",
+        "Subtypes": [
+            {
+                "Label": "scatterplot",
+                "Eng": "Scatterplot",
+                "Chn": "散点图",
+                "EngDescription": "",
+                "ChnDescription": "散点图（Scatterplot）是一种使用笛卡尔坐标显示一组数据的典型两个变量值的图或数学图。如果对点进行编码（颜色/形状/大小），则可以显示一个附加变量。数据显示为点的集合，每个点具有确定水平轴上的位置的一个变量的值和确定垂直轴上的位置的另一个变量的值。"
+            }
+        ]
+    },
+    "units": {
+        "Eng": "Units & Glyph",
+        "Subtypes": [
+            {
+                "Label": "heatmap",
+                "Eng": "Heatmap",
+                "Chn": "热力图",
+                "EngDescription": "",
+                "ChnDescription": "热力图一般以颜色来映射密度或者其他数值变量，比如说，颜色最深的地方可表示数据最集中的地方。热力图通常在矩阵或地理图的基础上进行绘制。"
+            },
+            {
+                "Label": "glyph_based",
+                "Eng": "Glyph-based",
+                "Chn": "基于字形的可视化",
+                "EngDescription": "",
+                "ChnDescription": "Glyph-based visualization是可视化设计的一种常见形式，其中数据由称为字形（glyph）的可视化对象来表示，编码具体的属性。"
+            },
+            {
+                "Label": "unit_visualization",
+                "Eng": "Unit Visualization",
+                "Chn": "单元可视化",
+                "EngDescription": "",
+                "ChnDescription": "Unit visualization中，每个样本点都通过一个单独都可视化元素表示出来，而这些可视化元素整体又构成一个完整的可视化。"
+            }
+        ]
+    },
+    "word": {
+        "Eng": "Word",
+        "Subtypes": [
+            {
+                "Label": "word_cloud",
+                "Eng": "Word Cloud",
+                "Chn": "词云",
+                "EngDescription": "",
+                "ChnDescription": "词云图即是对词汇的频数进行可视化，一个词越大它出现的次数就越多，且各个词语间的位置有集中的趋势。"
+            }
+        ]
+    },
+    "tree": {
+        "Eng": "Tree & Graph",
+        "Subtypes": [
+            {
+                "Label": "graph",
+                "Eng": "Graph",
+                "Chn": "图",
+                "EngDescription": "",
+                "ChnDescription": "图（graph）是顶点的集合，这些顶点通过一系列边进行连接。其中顶点表示实体，边表示实体间的关系。在可视化应用中，节点可使用图片或文字来进行标识"
+            },
+            {
+                "Label": "hierarchical_edge_bundling",
+                "Eng": "Hierarchical Edge Bundling",
+                "Chn": "层次边捆绑",
+                "EngDescription": "",
+                "ChnDescription": "Hierarchical Edge Bundling作为图的一种变种，其节点可沿圆弧分布，边扭曲成无宽度的曲线。其中，位置与方向接近的曲线将被绘制成捆（bundling），这样可节省空间，使图结构更美观"
+            },
+            {
+                "Label": "treemap",
+                "Eng": "Treemap",
+                "Chn": "树图",
+                "EngDescription": "",
+                "ChnDescription": "Treemap是Tree的一种变种，它不使用边来表示实体间的关系，而是将原本的树形结构映射到了平面空间图形中，通过面积、颜色、分支等方式来强调实体间的层级关系，可以有效地压缩图表所需空间。"
+            },
+            {
+                "Label": "tree",
+                "Eng": "Tree",
+                "Chn": "树",
+                "EngDescription": "",
+                "ChnDescription": "树（Tree）是图（Graph）的一种特殊形式，其所有的顶点相互连通，但不存在环。它主要用来表示节点间的层次关系。与graph相同，树中的节点在可视化设计中同样可用图表、文字等进行标示。除去图像本身所表达的实际意义外，流程图和树也可以通过是否有环来进行简单区分。"
+            },
+            {
+                "Label": "sunburst_icicle",
+                "Eng": "Sunburst/Icicle Chart",
+                "Chn": "旭日/冰柱图",
+                "EngDescription": "",
+                "ChnDescription": "旭日图和冰柱图都能表现出数据之间的层次关系，冰柱图通过一层一层不断细分的长方形来表示上层和下层之间的层次关系，而旭日图则是其在冰柱图基础上的一个变种成了圆形布局。"
+            }
+        ]
+    }
+}

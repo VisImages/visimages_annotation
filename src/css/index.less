@@ -1,0 +1,46 @@
+@import '../global/globalCSS.less';
+
+.ant-layout {
+    height: 100%;
+    width: 100%;
+}
+.index-header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .sys-logo {
+        width: 58px;
+        height: 58px;
+        object-fit: contain;
+        margin-right: 20px;
+    }
+    h1 {
+        color: white;
+        display: inline-block;
+        font-size: 25px;
+        margin: 0;
+    }
+    .right-item {
+        position: absolute;
+        font-size: 25px;
+        color: @header-text-color;
+        right: 20px;
+        top: 0;
+        height: 72px;
+        display: flex;
+        align-items: center;
+
+        .sys-avatar {
+            margin-left: 20px;
+        }
+        .sys-username {
+            margin: 0 20px 0 10px;
+        }
+        .sys-logout {
+            font-size: 32px;
+        }
+    }
+}

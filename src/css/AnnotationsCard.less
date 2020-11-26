@@ -1,0 +1,65 @@
+@import '../global/globalCSS.less';
+
+.ann-card-gost {
+    width: 100px;
+    height: 0;
+    content: "";
+}
+.ann-card-root {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    position: relative;
+    // background-color: @card-bg-color;
+    // background-color: @class1-checked-color;
+
+    .ann-card-header {
+        cursor: pointer;
+        height: calc(@per-item * 0.8);
+        padding: 2px;
+        text-align: center;
+        font-size: calc(@per-item / 2);
+        font-weight: bold;
+    }
+    .ann-card-main {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        .ann-card-item {
+            width: 100px;
+            margin-bottom: calc(@per-item / 4);
+            cursor: pointer;
+
+            .title {
+                width: 100px;
+                display: inline-block;
+                font-weight: bold;
+                font-size: calc(@per-item / 3);
+                height: @per-item;
+                line-height: calc(@per-item / 2);
+                text-align: center;
+            }
+        }
+        .checked {
+            background-color: @checked-color;
+            border: 1px solid @primary-color;
+        }
+        .unchecked {
+            background-color: @unchecked-color;
+            border: 1px solid @unchecked-border-color;
+        }
+    }
+
+}
+.class1-checked {
+    background-color: @class1-checked-color;
+}
+.class1-unchecked {
+    background-color: @card-bg-color;
+}
+.ann-card-hover-card {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+}

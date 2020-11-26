@@ -1,0 +1,62 @@
+@import '../global/globalCSS.less';
+
+.thu-presenter-root {
+    // overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+
+    .thu-presenter-header {
+        border-radius: 5px;
+    }
+    .thu-presenter-divider {
+        margin: 10px 0;
+    }
+    .thu-presenter-main {
+        width: calc(@thu-presenter-per-item * 4 / 3 + 6px);
+        height: @thu-presenter-height;
+        padding: 20px 0;
+        overflow: hidden;
+
+        .slick-list {
+            height: @thu-presenter-height;
+        }
+        .thu-item {
+            width: calc(@thu-presenter-per-item * 4 / 3);
+            height: @thu-presenter-per-item;
+        }
+        .current-item {
+            border: 2px solid @primary-color;
+        }
+        .thu-presenter-img {
+            width: calc(@thu-presenter-per-item * 4 / 3);
+            height: calc(@thu-presenter-per-item - 4px);
+            object-fit: contain;
+            border: 1px solid @unchecked-border-color;
+        }
+        .thu-presenter-button {
+            font-size: 20px;
+            background-color: @turn-button-color;
+            width: 60%;
+            position: absolute;
+            border-radius: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .up {
+            top: 45px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .down {
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+

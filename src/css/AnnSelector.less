@@ -1,0 +1,84 @@
+@import '../global/globalCSS.less';
+
+.ann-selector-root {
+    background-color: @content-item-bg-color;
+    min-width: 530px;
+    max-width: 780px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin-right: 10px;
+    position: relative;
+
+    .ann-selector-head {
+        .ann-selector-head-item {
+            display: inline-block;
+            margin: auto 0
+        }
+        .ann-selector-options-info {
+            font-size: 20px;
+            margin: auto 10px;
+            cursor: pointer;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 4px;
+        }
+        .search {
+            float: right;
+            margin-right: 20px;
+        }
+        .ant-checkbox-wrapper {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+    .ann-selector-main {
+        display: flex;
+        flex-wrap: wrap;
+        height: @ann-container-height;
+        justify-content: space-around;
+        overflow: auto;
+        margin-top: 5px;
+        
+        .ann-selector-gost {
+            width: 240px;
+            height: 0;
+            content: "";
+        }
+        .ann-selector-gost-0{
+            width: 0;
+            height: 0;
+            content: "";
+        }
+    }
+    .ann-selector-footer {
+        text-align: center;
+        margin-top: 10px;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+    
+        button {
+            margin: 0 30px;
+        }
+    }
+}
+
+.options-intro-card {
+    width: 380px;
+    font-size: 16px;
+    padding: 10px;
+
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .content{
+
+    }
+}
+.ant-tooltip {
+    max-width: 500px;
+}

@@ -1,0 +1,24 @@
+@import '../global/globalCSS.less';
+
+.main-content {
+    margin-top: 64px;
+    height: 100%;
+    overflow: auto;
+
+    .main-content-root {
+        background: @content-bg-color;
+        min-height: 380;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        height: 100%;
+
+        .main-content-main {
+            padding: 12px 0;
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            overflow: hidden;
+        }
+    }
+}
